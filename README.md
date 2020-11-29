@@ -5,8 +5,7 @@ Documentation for Coder Academy Term 3 MERN Project
 
 ## Contributors
 
-| [![Matthew Kelam](/docs/matthew-kelam-150px.jpg)](https://www.linkedin.com/in/maaronkel/) | 
-| [![Paul Meier](/docs/paul-meier-150px.jpg)](https://linkedin.com/in/paulanthonymeier/) |
+| [![Matthew Kelam](/docs/matthew-kelam-150px.jpg)](https://www.linkedin.com/in/maaronkel/) | [![Paul Meier](/docs/paul-meier-150px.jpg)](https://linkedin.com/in/paulanthonymeier/) |
 |-----------|-----------|
 | Matthew Kelam | Paul Anthony Meier |
 
