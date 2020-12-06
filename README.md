@@ -16,14 +16,14 @@ Documentation for Coder Academy Term 3 MERN Project
 
 ## Purpose
 
-Pair Programmer is a virtual online environment that helps facilitate the random selection of participants into workspaces of pairs and groups, providing participants and project contributors with brainstorming utilities to assist in the generation, conceptulization and development of ideas. 
+Pair Programmer is a virtual online environment that helps facilitate the random selection of participants into workspaces of pairs and groups, providing participants and project contributors with brainstorming utilities to assist in the generation, conceptulization and development of ideas.
 
-Pair Programmer also aims to assist in the development of student programmers, by providing group coding challenges to workspace participants. 
+Pair Programmer also aims to assist in the development of student programmers, by providing group coding challenges to workspace participants.
 
 
 ## Target Audience
 
-Pair Programmer would be best utilised by educational institutes and organisations in the Technology industry including (but not limited to) Universities, Coding Bootcamps, Hackathon Organisers and Programming Teachers / Educators. 
+Pair Programmer would be best utilised by educational institutes and organisations in the Technology industry including (but not limited to) Universities, Coding Bootcamps, Hackathon Organisers and Programming Teachers / Educators.
 
 
 ## Functionality / Features
@@ -31,7 +31,7 @@ Pair Programmer would be best utilised by educational institutes and organisatio
 ### Organiser / Educator Users
 
 _**User Onboarding**_
-An Organiser/Educator user will initially be required to create an account for the Intitution / Organisation that they represent, as well as their own individual user account. An existing Organiser/Educator can then proceed to create other Organiser/Educator and Participant/Student accounts, or send invitations to join via email. 
+An Organiser/Educator user will initially be required to create an account for the Intitution / Organisation that they represent, as well as their own individual user account. An existing Organiser/Educator can then proceed to create other Organiser/Educator and Participant/Student accounts, or send invitations to join via email.
 - Signup for a user account and create the Intitution / Organisation.
 - Create Intitution / Organisation locations or campuses to accomodate for organisation that have mulitple locations/campuses.
 - Create other Organisers/Educators and Participants/Students user accounts, and send them an email invitation.
@@ -69,7 +69,7 @@ Once an 'Event' is selected, an Organiser/Educator will be able to choose how ma
 ### Participant / Student Users
 
 _**User Onboarding**_
-Participant/Student users will initially signup via the email invitation received from their Intitution / Organisation. 
+Participant/Student users will initially signup via the email invitation received from their Intitution / Organisation.
 - Complete the account creation process (via email link).
 
 _**Workspaces**_
@@ -94,10 +94,10 @@ _**Workspaces**_
 Organisers/Educators will be able to access their Participants/Students workspaces and particpate in group chat and workflow.
 
 _**Notifications**_
-Organisers/Educators will receive a notification when their Participants/Students perform certain key actions: 
+Organisers/Educators will receive a notification when their Participants/Students perform certain key actions:
 - Participant/Student marks or flags their Workspace as 'Complete'.
 
-Participants/Students will receive a notification when certain key actions are executed: 
+Participants/Students will receive a notification when certain key actions are executed:
 - Participant/Student is assigned to a newly created Workspace.
 - Participant/Student has unseen/unread comments in a Workspace group chat
 - Participant/Student marks or flags a Workspace they are assigned to as 'Complete' or 'In Progress'.
@@ -116,6 +116,41 @@ Participants/Students will receive a notification when certain key actions are e
 
 
 ## User Stories
+
+#### Sarah is a mother of two small children who works part-time. She is very independant and prefers working by herself. With this app she wants to ...
+
+- Have the option to work on coding challenges by herself, or with a partner of her choosing
+- Communicate with her educators to receive assistance
+
+#### Jordan is a young man in his 20s who spends most of his time playing video games, and has no real motivation to study by myself, he wants to ...
+
+- Have an educator pair him up with someone with greater skill so that he may learn from them
+- Be given coding challenges and projects that he must complete in a time frame
+- Work with someone who is fun and engaging, and can explain concepts that I'm not comfortable with easily, enabling me to understand the content better
+
+#### Chris was recently employed full-time in the same industry for over 15 years and looking for a quick career change, he wants to ...
+
+- Have a lot of collaboration in an environment similar to some tech companies in the real world
+- Work on coding projects and have the ability to plan that days structure on a kanban board
+- Be able to use a Kanban style board because I find it easier to work on something when I can clearly write down each step
+
+#### Antonia has recently completed a University degree, yet hasen't been able to find work in her field. She is interested in a coding career, and with his app wants to ...
+
+- Be able to work in a comfortable and quiet environment that enables her to work proactively
+- Work with another student on challenges, exercises and projects, who is more skilled than her so that she may learn first hand from someone else
+- Be able to communicate with the Educators and ask for assistance
+
+#### Lrac is an Educator at an online University in the software development sector, he is very lenient in allowing his students to decide who they want to work with on coding challenges. With this app he wants to...
+
+- Allow students to decide if they want to work by themselves or pair up with a friend
+- Allow students to reach out to the educators if they need assistance
+- Manage his Universities' campuses, teachers and students
+
+#### Bez is an Educator at an online Coding Bootcamp, who prefers to delegate students into pairs when working on coding challenges. With this app he wants to ...
+
+- Be able to manage his students into pairs or groups
+- Monitor each group of students in their respective workspace and give assistance if needed
+- Add each of his students to his institute
 
 ### As an Organiser / Educator, I want to ...
 
@@ -196,5 +231,4 @@ Participants/Students will receive a notification when certain key actions are e
 
 ### As a Super Administrator (Backend User), I want to ...
 
-- 
-
+-
