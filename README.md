@@ -106,7 +106,9 @@ Participants/Students will receive a notification when certain key actions are e
 
 ![Application Architecture Diagram](docs/apparchitecture.png "Application Architecture Diagram")
 
-## Dataflow Diagram
+## Dataflow Diagrams
+
+![Dataflow Diagram](docs/dfd.png "Dataflow Diagram")
 
 ## Tech stack
 
@@ -244,4 +246,3 @@ Participants/Students will receive a notification when certain key actions are e
 ![Pair Programmer | Trello Board](docs/trello-03.png "Pair Programmer | Trello Board")
 
 ![Pair Programmer | Trello Board](docs/trello-04.png "Pair Programmer | Trello Board")
-
