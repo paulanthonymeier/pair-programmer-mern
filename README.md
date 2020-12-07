@@ -234,6 +234,14 @@ Participants/Students will receive a notification when certain key actions are e
   - Delete my notifications
 
 
-### As a Super Administrator (Backend User), I want to ...
 
--
+## Trello Board / Progress
+
+![Pair Programmer | Trello Board](docs/trello-01.png "Pair Programmer | Trello Board")
+
+![Pair Programmer | Trello Board](docs/trello-02.png "Pair Programmer | Trello Board")
+
+![Pair Programmer | Trello Board](docs/trello-03.png "Pair Programmer | Trello Board")
+
+![Pair Programmer | Trello Board](docs/trello-04.png "Pair Programmer | Trello Board")
+
