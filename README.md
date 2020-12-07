@@ -102,6 +102,11 @@ Participants/Students will receive a notification when certain key actions are e
 - Participant/Student has unseen/unread comments in a Workspace group chat
 - Participant/Student marks or flags a Workspace they are assigned to as 'Complete' or 'In Progress'.
 
+## Application Architecture Diagram
+
+![Application Architecture Diagram](docs/apparchitecture.png "Application Architecture Diagram")
+
+## Dataflow Diagram
 
 ## Tech stack
 
