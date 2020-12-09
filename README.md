@@ -239,31 +239,46 @@ Participants/Students will receive a notification when certain key actions are e
 
 ## Application Wireframes
 
+#### Dashboard
+
 ![Pair Programmer | Dashboard Wireframe](docs/wireframes/dashboard.jpg "Pair Programmer | Dashboard Wireframe")
+#### Workspaces
 
 ![Pair Programmer | Workspaces Wireframe](docs/wireframes/workspaces.jpg "Pair Programmer | Workspaces Wireframe")
+#### Individual Workspace
 
 ![Pair Programmer | View Workspace Wireframe](docs/wireframes/workspaces-view.jpg "Pair Programmer | View Workspace Wireframe")
+#### Create Workspace
 
 ![Pair Programmer | Create Workspaces Wireframe](docs/wireframes/workspaces-create.jpg "Pair Programmer | Create Workspaces Wireframe")
+#### Events
 
 ![Pair Programmer | Event Templates Wireframe](docs/wireframes/events.jpg "Pair Programmer | Event Templates Wireframe")
+#### Create Event Template
 
 ![Pair Programmer | Create Event Template Wireframe](docs/wireframes/events-create.jpg "Pair Programmer | Create Event Template Wireframe")
+#### Students
 
 ![Pair Programmer | Students Wireframe](docs/wireframes/students.jpg "Pair Programmer | Students Wireframe")
+#### Add Student
 
 ![Pair Programmer | Create Student Wireframe](docs/wireframes/students-create.jpg "Pair Programmer | Create Student Wireframe")
+#### Profile
 
 ![Pair Programmer | Profile Wireframe](docs/wireframes/profile.jpg "Pair Programmer | Profile Wireframe")
+#### Notification drop-down
 
 ![Pair Programmer | Notification Panel Wireframe](docs/wireframes/notifications.jpg "Pair Programmer | Notification Panel Wireframe")
+#### Settings
 
 ![Pair Programmer | Institute Settings Wireframe](docs/wireframes/settings-institute.jpg "Pair Programmer | Institute Settings Wireframe")
+#### Create Institute
 
 ![Pair Programmer | Create Institute Wireframe](docs/wireframes/settings-institute-create-location.jpg "Pair Programmer | Create Institute Wireframe")
+#### Educators
 
 ![Pair Programmer | Educators Wireframe](docs/wireframes/settings-educators.jpg "Pair Programmer | Educators Wireframe")
+#### Add Educators
 
 ![Pair Programmer | Create Educator Wireframe](docs/wireframes/settings-educators-create.jpg "Pair Programmer | Create Educator Wireframe")
 
