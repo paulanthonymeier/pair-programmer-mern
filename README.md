@@ -286,8 +286,14 @@ Participants/Students will receive a notification when certain key actions are e
 
 ## HD Designs / Mockups
 
-#### Add Student
-![Pair Programmer | Create Student](docs/designs/create-student.png "Pair Programmer | Create Student HD Mockup")
+#### Sample Page Layout
+![Pair Programmer | Sample Page Layout](docs/designs/hd-mockup-01-main.jpg "Pair Programmer | Sample Page Layout")
+
+#### Main Containers Layout
+![Pair Programmer | Container Layout](docs/designs/hd-mockup-02-containers.jpg "Pair Programmer | Container Layout")
+
+#### Containers Margins & Padding
+![Pair Programmer | Margins & Padding](docs/designs/hd-mockup-03-margin-padding.jpg "Pair Programmer | Margins & Padding")
 
 
 
