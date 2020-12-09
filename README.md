@@ -287,7 +287,7 @@ Participants/Students will receive a notification when certain key actions are e
 ## HD Designs / Mockups
 
 #### Add Student
-![Pair Programmer | Create Student](docs/trello-01.png "Pair Programmer | Create Student HD Mockup")
+![Pair Programmer | Create Student](docs/designs/create-student.png "Pair Programmer | Create Student HD Mockup")
 
 
 
