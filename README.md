@@ -237,6 +237,38 @@ Participants/Students will receive a notification when certain key actions are e
 
 
 
+## Application Wireframes
+
+![Pair Programmer | Dashboard Wireframe](docs/wireframes/dashboard.jpg "Pair Programmer | Dashboard Wireframe")
+
+![Pair Programmer | Workspaces Wireframe](docs/wireframes/workspaces.jpg "Pair Programmer | Workspaces Wireframe")
+
+![Pair Programmer | View Workspace Wireframe](docs/wireframes/workspaces-view.jpg "Pair Programmer | View Workspace Wireframe")
+
+![Pair Programmer | Create Workspaces Wireframe](docs/wireframes/workspaces-create.jpg "Pair Programmer | Create Workspaces Wireframe")
+
+![Pair Programmer | Event Templates Wireframe](docs/wireframes/events.jpg "Pair Programmer | Event Templates Wireframe")
+
+![Pair Programmer | Create Event Template Wireframe](docs/wireframes/events-create.jpg "Pair Programmer | Create Event Template Wireframe")
+
+![Pair Programmer | Students Wireframe](docs/wireframes/students.jpg "Pair Programmer | Students Wireframe")
+
+![Pair Programmer | Create Student Wireframe](docs/wireframes/students-create.jpg "Pair Programmer | Create Student Wireframe")
+
+![Pair Programmer | Profile Wireframe](docs/wireframes/profile.jpg "Pair Programmer | Profile Wireframe")
+
+![Pair Programmer | Notification Panel Wireframe](docs/wireframes/notifications.jpg "Pair Programmer | Notification Panel Wireframe")
+
+![Pair Programmer | Institute Settings Wireframe](docs/wireframes/settings-institute.jpg "Pair Programmer | Institute Settings Wireframe")
+
+![Pair Programmer | Create Institute Wireframe](docs/wireframes/settings-institute-create-location.jpg "Pair Programmer | Create Institute Wireframe")
+
+![Pair Programmer | Educators Wireframe](docs/wireframes/settings-educators.jpg "Pair Programmer | Educators Wireframe")
+
+![Pair Programmer | Create Educator Wireframe](docs/wireframes/settings-educators-create.jpg "Pair Programmer | Create Educator Wireframe")
+
+
+
 ## Trello Board / Progress
 
 ![Pair Programmer | Trello Board](docs/trello-01.png "Pair Programmer | Trello Board")
