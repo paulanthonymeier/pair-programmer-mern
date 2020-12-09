@@ -297,8 +297,9 @@ Participants/Students will receive a notification when certain key actions are e
 
 #### Cards Margins & Padding
 ![Pair Programmer | Cards Margins & Padding](docs/designs/hd-mockup-04-cards-padding.jpg "Pair Programmer | Cards Margins & Padding")
+#### Colorscheme
 
-
+![Colorscheme](docs/designs/colorscheme.png)
 
 ## Trello Board / Progress
 
