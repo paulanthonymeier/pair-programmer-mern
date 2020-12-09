@@ -311,3 +311,5 @@ Participants/Students will receive a notification when certain key actions are e
 ![Pair Programmer | Trello Board](docs/trello-04.png "Pair Programmer | Trello Board")
 
 ![Pair Programmer | Trello Board](docs/trello-05.png "Pair Programmer | Trello Board")
+
+![Pair Programmer | Trello Board](docs/trello-06.png "Pair Programmer | Trello Board")
