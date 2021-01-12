@@ -1,6 +1,6 @@
 import mongoose from 'mongoose'
 
-const workspaceSchema = mongoose.Schema({
+const settingsSchema = mongoose.Schema({
     firstName: String,
     lastName: String,
     email: String,
@@ -9,6 +9,6 @@ const workspaceSchema = mongoose.Schema({
     // campus: [String],
 });
 
-const WorkspaceMessage = mongoose.model('WorkspacesMessage', workspaceSchema);
+const Settings = mongoose.model('Settings', settingsSchema);
 
-export default WorkspaceMessage;
+export default Settings;

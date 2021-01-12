@@ -1,17 +1,17 @@
-import WorkspaceMessage from '../models/workspacesMessage.js';
+import Workspaces from '../models/Workspaces.js';
 
 export const getWorkspaces = async (req, res) => {
     try {
-       const workspaceMessages = await WorkspaceMessage.find();
-       res.status(200).json(workspaceMessages);
+       const workspace = await Workspaces.find();
+       res.status(200).json(workspace);
     } catch (error) {
        res.status(404).json({ message: error.message });
     }
 }
 
 export const createWorkspaces = async (req, res) => {
-    const body = req.body;
-    const newWorkspace = new WorkspaceMessage(post);
+    const workspace = req.body;
+    const newWorkspace = new Workspaces(workspace);
     try {
        await newWorkspace.save() 
        res.status(201).json(newWorkspace);
