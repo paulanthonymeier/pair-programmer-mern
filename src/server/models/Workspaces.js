@@ -1,12 +1,20 @@
 import mongoose from 'mongoose'
 
 const workspaceSchema = mongoose.Schema({
-    workName: String,
-    workType: String,
+    name: String,
+    type: String,
     description: String,
     outcomes: [String],
-    campus: [String],
-    size: Number
+    students: [
+        {
+            type: mongoose.Schema.Types.ObjectId,
+            ref: 'Users'
+        },
+    ],
+    date: {
+        type: Date,
+        default: Date.now
+    }
 });
 
 const Workspaces = mongoose.model('Workspaces', workspaceSchema);

@@ -5,13 +5,19 @@ const userSchema = mongoose.Schema({
     lastName: String,
     email: String,
     phone: Number,
-    campus: [String],
-    isTeacher: { type: Boolean, default: true },
+    password: String,
+    institute: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'Institute'
+    },
     userProfile: {
         type: mongoose.Schema.Types.ObjectId,
         ref: 'UserProfile'
     },
-    password: String
+    isTeacher: { 
+        type: Boolean, 
+        default: true 
+    },
 });
 
 const Users = mongoose.model('Users', userSchema);
