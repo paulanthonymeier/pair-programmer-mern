@@ -3,9 +3,15 @@ import mongoose from 'mongoose'
 const userSchema = mongoose.Schema({
     firstName: String,
     lastName: String,
-    email: String,
     phone: Number,
-    password: String,
+    email: {
+        type: String,
+        required: true,
+        unique: true
+    },
+    password: {
+        type: String
+    },
     institute: {
         type: mongoose.Schema.Types.ObjectId,
         ref: 'Institute'
