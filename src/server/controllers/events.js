@@ -1,17 +1,17 @@
-import EventMessage from '../models/eventsMessage.js';
+import Events from '../models/Events.js';
 
 export const getEvents = async (req, res) => {
     try {
-       const eventMessages = await EventMessage.find();
-       res.status(200).json(eventMessages);
+       const event = await Events.find();
+       res.status(200).json(event);
     } catch (error) {
        res.status(404).json({ message: error.message });
     }
 }
 
 export const createEvents = async (req, res) => {
-    const body = req.body;
-    const newEvent = new EventMessage(post);
+    const event = req.body;
+    const newEvent = new Events(event);
     try {
        await newEvent.save() 
        res.status(201).json(newEvent);

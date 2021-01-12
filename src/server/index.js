@@ -4,22 +4,20 @@ import cors from 'cors';
 import mongoose from 'mongoose';
 
 // get routes for each page
-import studentRoutes from './routes/students.js'
+import userRoutes from './routes/users.js'
 import workspaceRoutes from './routes/workspaces.js'
 import eventRoutes from './routes/events.js'
 import profileRoutes from './routes/profile.js'
 import settingsRoutes from './routes/settings.js'
-import dashboardRoute from './routes/dashboard.js'
 
 const app = express();
 
 // using the functions inside the routes folder 
 app.use('/workspaces', workspaceRoutes);
 app.use('/events', eventRoutes);
-app.use('/students', studentRoutes);
+app.use('/students', userRoutes);
 app.use('/profile', profileRoutes);
 app.use('/settings', settingsRoutes);
-app.use('/', dashboardRoute );
 
 app.use(bodyParser.json({limit: "30mb", extended: true}));
 app.use(bodyParser.urlencoded({limit: "30mb", extended: true}));
