@@ -4,10 +4,10 @@ import cors from 'cors';
 import mongoose from 'mongoose';
 
 // import functions for the routes
-import userRoutes from './routes/users.js'
-import workspaceRoutes from './routes/workspaces.js'
-import profileRoutes from './routes/userProfile.js'
 import dashboardRoutes from './routes/dashboard.js'
+import workspaceRoutes from './routes/workspaces.js'
+import userRoutes from './routes/users.js'
+import profileRoutes from './routes/userProfile.js'
 
 const app = express();
 
@@ -16,6 +16,7 @@ app.use('/dashboard', dashboardRoutes);
 app.use('/workspaces', workspaceRoutes);
 app.use('/students', userRoutes);
 app.use('/profile', profileRoutes);
+app.use('/', (req, res) => res.send("Homepage"));
 
 app.use(bodyParser.json({limit: "30mb", extended: true}));
 app.use(bodyParser.urlencoded({limit: "30mb", extended: true}));
@@ -23,7 +24,7 @@ app.use(cors());
 
 // connecting to mongoose cloud atlas 
 const CONNECTION_URL = 'mongodb+srv://mattk:2049goose@cluster0.yd6ia.mongodb.net/<dbname>?retryWrites=true&w=majority'
-// setting the port to the one set in the environment variable, or :5000
+// setting the port to the one set in the environment variable, or 5000
 const PORT = process.env.PORT || 5000;
 
 mongoose.connect(CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: true })
