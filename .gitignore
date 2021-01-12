@@ -18,9 +18,9 @@
 /src/client/.env.test.local
 /src/client/.env.production.local
 
-/src/clientnpm-debug/.log*
-/src/clientyarn-debug/.log*
-/src/clientyarn-error/.log*
+/src/client/npm-debug/.log*
+/src/client/yarn-debug/.log*
+/src/client/yarn-error/.log*
 
 
 # SERVER
