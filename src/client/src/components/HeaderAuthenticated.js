@@ -43,9 +43,10 @@ const HeaderAuthenticated = () => {
         </div>
         <nav className="header-nav-container">
           <div className="header-nav-wrapper">
-            <Link onClick={scrollPage} className="nav-link" to='/'>home</Link>
-            <Link onClick={scrollPage} className="nav-link" to='/login'>login</Link>
-            <Link onClick={scrollPage} className="nav-link" to='/signup'>signup</Link>
+            <Link onClick={scrollPage} className="nav-link" to='/sashboard'>Dashboard</Link>
+            <Link onClick={scrollPage} className="nav-link" to='/workspaces'>Workspaces</Link>
+            <Link onClick={scrollPage} className="nav-link" to='/students'>Students</Link>
+            <Link onClick={scrollPage} className="nav-link" to='/settings'>Settings</Link>
             <div onClick={onLogout} href='' className="nav-link">
               <i className="fas fa-lock"></i>{' '}
               <span style={{marginLeft: '4px'}}>logout { user ? user.username : '' }</span>
