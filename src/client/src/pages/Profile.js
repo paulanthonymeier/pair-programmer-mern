@@ -1,14 +1,14 @@
 import React from 'react';
 import './assets/scss/pages.scss';
 
-const Dashboard = () => {
+const Profile = () => {
   return (
     <section className="page-container">
       <div className="page-wrapper">
-        Dashboard Page
+        Profile Page
       </div>
     </section>
   )
 }
 
-export default Dashboard;
+export default Profile;

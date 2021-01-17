@@ -16,7 +16,3 @@ export const CLEAR_ERRORS = 'CLEAR_ERRORS';
 export const SET_PROFILE = 'SET_PROFILE';
 export const CLEAR_PROFILE = 'CLEAR_PROFILE';
 export const FETCHING_PROFILE = 'FETCHING_PROFILE';
-// export const SET_OTHER_PROFILE = 'SET_OTHER_PROFILE';
-// export const SET_SERVICES = 'SET_SERVICES';
-// export const FOLLOW_USER = 'FOLLOW_USER';
-// export const UNFOLLOW_USER  = 'UNFOLLOW_USER';

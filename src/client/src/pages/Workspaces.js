@@ -5,6 +5,7 @@ const Workspaces = () => {
   return (
     <section className="page-container">
       <div className="page-wrapper">
+        Workspaces Show Page
       </div>
     </section>
   )

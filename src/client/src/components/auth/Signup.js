@@ -1,5 +1,5 @@
 import React, { useState, useContext, useEffect } from 'react';
-// import '../assets/scss/signup.scss';
+import '../../pages/assets/scss/pages.scss';
 import AuthContext from '../../context/auth/authContext';
 import AlertContext from '../../context/alert/alertContext';
 
