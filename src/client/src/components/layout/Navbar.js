@@ -11,8 +11,8 @@ const Navbar = () => {
   return (
     <Fragment>
       {/* <HeaderUnauthenticated /> */}
-      {/* <HeaderAuthenticated /> */}
-        { isAuthenticated ? (<HeaderAuthenticated />) : (<HeaderUnauthenticated />) }
+      <HeaderAuthenticated />
+        {/* { isAuthenticated ? (<HeaderAuthenticated />) : (<HeaderUnauthenticated />) } */}
     </Fragment>
   )
 }

@@ -10,26 +10,28 @@ const HeaderUnauthenticated = () => {
   };
 
   return (
-    <section className="header-container">
-      <div className="header-wrapper">
-        <div className="logo-container">
-          <div className="logo-wrapper">
-            <Link onClick={scrollPage} className="logo-link" to='/'>
-              <img src={Logo} className="logo-img" alt="Pair Programmer" />
-              <h1>pair programmer</h1>
-            </Link>
+    <section className="header-section">
+      <div className="header-container">
+        <div className="header-wrapper">
+          <div className="logo-container">
+            <div className="logo-wrapper">
+              <Link onClick={scrollPage} className="logo-link" to='/'>
+                <img src={Logo} className="logo-img" alt="Pair Programmer" />
+                <h1>pair programmer</h1>
+              </Link>
+            </div>
           </div>
+          <nav className="header-nav-container">
+            <div className="header-nav-wrapper">
+              <Link onClick={scrollPage} className="nav-link" to='/'>home</Link>
+              <Link onClick={scrollPage} className="nav-link" to='/login'>login</Link>
+              <Link onClick={scrollPage} className="nav-link signup-btn" to='/signup'>signup</Link>
+            </div>
+          </nav>
         </div>
-        <nav className="header-nav-container">
-          <div className="header-nav-wrapper">
-            <Link onClick={scrollPage} className="nav-link" to='/'>home</Link>
-            <Link onClick={scrollPage} className="nav-link" to='/login'>login</Link>
-            <Link onClick={scrollPage} className="nav-link signup-btn" to='/signup'>signup</Link>
-          </div>
-        </nav>
       </div>
     </section>
   )
-};
+}
 
 export default HeaderUnauthenticated;

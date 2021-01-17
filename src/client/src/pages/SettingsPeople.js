@@ -1,14 +1,14 @@
 import React from 'react';
 import './assets/scss/pages.scss';
 
-const Dashboard = () => {
+const SettingsPeople = () => {
   return (
     <section className="page-container">
       <div className="page-wrapper">
-        Dashboard Page
+        Staff / Educators Show Page
       </div>
     </section>
   )
 }
 
-export default Dashboard;
+export default SettingsPeople;

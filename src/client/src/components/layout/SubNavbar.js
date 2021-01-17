@@ -1,17 +1,17 @@
 import React, { Fragment, useContext } from 'react';
-import FooterMain from '../FooterMain';
+import SubHeaderAuthenticated from '../SubHeaderAuthenticated';
 import AuthContext from '../../context/auth/authContext';
 
-const Footer = () => {
+const SubNavbar = () => {
 
   const authContext = useContext(AuthContext);
   const { isAuthenticated } = authContext;
 
   return (
     <Fragment>
-      { isAuthenticated ? ( null ) : ( <FooterMain /> ) }
+      { isAuthenticated ? ( <SubHeaderAuthenticated /> ) : ( null ) };
     </Fragment>
   )
 }
 
-export default Footer;
+export default SubNavbar;
