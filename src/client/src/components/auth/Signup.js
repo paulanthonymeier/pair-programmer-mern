@@ -2,6 +2,7 @@ import React, { useState, useContext, useEffect } from 'react';
 import '../../pages/assets/scss/pages.scss';
 import AuthContext from '../../context/auth/authContext';
 import AlertContext from '../../context/alert/alertContext';
+import axios from 'axios';
 
 const Register = (props) => {
 
@@ -62,7 +63,7 @@ const Register = (props) => {
 
 	const onChange = (e) => {
 		setUser({ ...user, [e.target.name]: e.target.value });
-	}
+  }
 
 	return (
     <section className="page-container signup">

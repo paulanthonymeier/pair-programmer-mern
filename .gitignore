@@ -21,7 +21,7 @@
 /src/client/npm-debug/.log*
 /src/client/yarn-debug/.log*
 /src/client/yarn-error/.log*
-
+.DS_Store
 
 # SERVER
 

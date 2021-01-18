@@ -1,9 +1,8 @@
-import mongoose from 'mongoose'
+import mongoose from 'mongoose';
 
 const userSchema = mongoose.Schema({
     firstName: String,
     lastName: String,
-    phone: Number,
     email: {
         type: String,
         required: true,
