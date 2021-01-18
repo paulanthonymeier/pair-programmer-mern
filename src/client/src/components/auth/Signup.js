@@ -57,7 +57,8 @@ const Register = (props) => {
 				institutename,
 				institutelocation
 			});
-		}
+    }
+    console.log(register);
 	}
 
 	const onChange = (e) => {
