@@ -18,7 +18,25 @@ const SettingsBusiness = () => {
         </div>
         <div className="page-col col-right">
         <div className="page-content-wrapper">
-
+          <div className="section-title">
+            <h3>company / institute</h3>
+          </div>
+          <div className="section-details">
+            <div className="row-title">
+              business name
+            </div>
+            <div className="row-info">
+              [business_name]
+            </div>
+          </div>
+          <div className="section-details">
+            <div className="row-title">
+              business location
+            </div>
+            <div className="row-info">
+              [business_location]
+            </div>
+          </div>
         </div>
         </div>
       </div>

@@ -18,11 +18,41 @@ const SettingsPeople = () => {
         </div>
         <div className="page-col col-right">
         <div className="page-content-wrapper">
-
+          <div className="section-title">
+            <h3>staff / educators</h3>
+          </div>
+          <PeopleCard />
+          <PeopleCard />
+          <PeopleCard />
+          <PeopleCard />
+          <PeopleCard />
         </div>
         </div>
       </div>
     </section>
+  )
+}
+
+const PeopleCard = () => {
+  return (
+    <div className="section-details-wrapper">
+      <div className="section-details">
+        <div className="row-title">
+          full name
+        </div>
+        <div className="row-info">
+          [first_name] [last_name]
+        </div>
+      </div>
+      <div className="section-details">
+        <div className="row-title">
+          email address
+        </div>
+        <div className="row-info">
+          [email_address]
+        </div>
+      </div>
+    </div>
   )
 }
 
