@@ -103,7 +103,7 @@
     justify-content: center;
     width: 100%;
     .subheader-wrapper {
-      background-color: #bbb;
+      background-color: #94bc19;
       height: 36px;
       .subheader-nav-container {
         align-items: center;
@@ -111,11 +111,12 @@
         flex-direction: row;
         flex-wrap: nowrap;
         height: 50px;
-        justify-content: flex-end;
+        justify-content: space-between;
         max-width: 1080px;
         margin: 0 auto;
         padding: 0 10px;
         width: 100%;
+        .subheader-actions-wrapper,
         .subheader-nav-wrapper {
           align-items: center;
           display: flex;
@@ -126,7 +127,7 @@
           width: auto;
           .subnav-link {
             align-items: center;
-            color: #353535;
+            color: #fff;
             display: flex;
             font-weight: 500;
             flex-direction: row;
@@ -138,9 +139,12 @@
             width: auto;
           }
           .subnav-link:hover {
-            background-color: #ccc;
-            color: #444;
+            background-color: #86aa18;
+            color: #fff;
           }
+        }
+        .subheader-actions-wrapper {
+          justify-content: flex-start;
         }
       }
     }
