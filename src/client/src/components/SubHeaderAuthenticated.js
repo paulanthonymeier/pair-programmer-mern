@@ -24,6 +24,7 @@ const SubHeaderAuthenticated = (props) => {
     <div className="subheader-container">
       <div className="subheader-wrapper">
         <nav className="subheader-nav-container">
+          <div className="subheader-actions-wrapper"></div>
           <div className="subheader-nav-wrapper">
             <Link onClick={scrollPage} className="subnav-link" to='/settings/business'>campany / institute</Link>
             <Link onClick={scrollPage} className="subnav-link" to='/settings/people'>staff / educators</Link>
