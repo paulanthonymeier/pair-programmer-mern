@@ -14,12 +14,12 @@ const app = express();
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended: true}))
 
-// app.use(cors({
-    // origin: "https://localhost:3000", // react app
-    // credentials: true
-// }))
+app.use(cors({
+    origin: "https://localhost:3000", // react app
+    credentials: true
+}))
 
-app.post("/signup", (req, res) => {
+app.post("/api/register", (req, res) => {
     Users.findOne([firstName, req.body.FirstName], async (err,doc) => {
         if (err) throw err;
         if (doc) res.send('User already exists');
@@ -41,7 +41,7 @@ app.post("/signup", (req, res) => {
 })
 
 // using the functions inside the routes folder 
-// app.use('/login', loginRoutes)
+// app.use('/api/login', loginRoutes)
 app.use('/dashboard', dashboardRoutes);
 app.use('/workspaces', workspaceRoutes);
 app.use('/students', userRoutes);
