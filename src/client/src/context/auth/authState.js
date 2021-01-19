@@ -43,7 +43,7 @@ const AuthState = props => {
         payload: res.data // this is the actual user data that we get from hitting the GET /api/auth endpoint
       })
   } catch (err) {
-    console.log(err.response)
+    console.log('DANGER WILL BOBINSON: ', err.response)
     dispatch({
         type: AUTH_ERROR
       })
@@ -97,7 +97,7 @@ const AuthState = props => {
       loadUser();
 
     } catch (err) {
-      console.log(err);
+      console.log('DANGER WILL BOBINSON: ', err);
       // console.log(err.response.data);
       dispatch({
         type: LOGIN_FAIL,
