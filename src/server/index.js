@@ -52,7 +52,7 @@ app.use('/api/profiles', profileRoutes);
 app.use('/', (req, res) => res.send('Homepage'));
 
 // connecting to mongoose cloud atlas 
-const CONNECTION_URL = 'mongodb+srv://mattk:2049goose@cluster0.yd6ia.mongodb.net/<dbname>?retryWrites=true&w=majority'
+const CONNECTION_URL = 'mongodb+srv://admin:admin@cluster0.yd6ia.mongodb.net/pairprogrammer?retryWrites=true&w=majority'
 const PORT = process.env.PORT || 3001;
 
 mongoose.connect(CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: true })
