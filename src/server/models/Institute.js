@@ -1,7 +1,8 @@
 import mongoose from 'mongoose'
 
 const instituteSchema = mongoose.Schema({
-    name: String,
+    institutename: String,
+    institutelocation: String,
 });
 
 const Institute = mongoose.model('Institute', instituteSchema);

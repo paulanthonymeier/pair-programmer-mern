@@ -1,10 +1,19 @@
-import express from 'express'
-
-import { getUsers, createUsers } from '../controllers/users.js'
-
+const express = require('express');
 const router = express.Router();
 
-router.get('/', getUsers);
-router.post('/', createUsers);
+const validateUser = require('../middleware/users');
+const { loginUser, registerUser, logoutUser } = require('../controllers/users');
 
-export default router;
+// @route       /api/users/login
+// @desc        Login as a user
+router.post('/login', validateUser, loginUser);
+
+// @route       /api/users/register
+// @desc        Register a user and log them in using passport
+router.post('/register', registerUser);
+
+// @route       /api/users/logout
+// @desc        Logout
+router.get('/logout', logoutUser);
+
+module.exports = router;

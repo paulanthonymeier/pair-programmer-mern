@@ -1,4 +1,4 @@
-import mongoose from 'mongoose'
+const mongoose = require('mongoose');
 
 const profileSchema = mongoose.Schema({
     userId: {
@@ -8,6 +8,4 @@ const profileSchema = mongoose.Schema({
     about: String
 });
 
-const UserProfile = mongoose.model('UserProfile', profileSchema);
-
-export default UserProfile;
+module.exports = mongoose.model('UserProfile', profileSchema);
