@@ -315,7 +315,19 @@ Participants/Students will receive a notification when certain key actions are e
 
 ![Pair Programmer | Trello Board](docs/trello-06.png "Pair Programmer | Trello Board")
 
-### Part B Trello Board and Task Delegation
+### Part B Trello Board and Task Delegation Summary
+
+![Pair Programmer | Trello Board](docs/trello1.png "Pair Programmer | Trello Board")
+
+![Pair Programmer | Trello Board](docs/trello2.png "Pair Programmer | Trello Board")
+
+![Pair Programmer | Trello Board](docs/trello3.png "Pair Programmer | Trello Board")
+
+![Pair Programmer | Trello Board](docs/trello4.png "Pair Programmer | Trello Board")
+
+![Pair Programmer | Trello Board](docs/trello5.png "Pair Programmer | Trello Board")
+
+![Pair Programmer | Trello Board](docs/trello6.png "Pair Programmer | Trello Board")
 
 We decided early on to work on Part B of the assignment - both front and back-end - together, as we both have similar strengths and weaknesses in coding. We both prefer and are more familiar with React and front-end development, and are both similarly less confident with express and mognodb, so we decided not to deligate one person coding the front, and the other the back. We thought, in doing it this way, that by the end of the assignment, we would both have a better grasp of node, express and mongodb, and how a fullstack application is structured and works.
 
