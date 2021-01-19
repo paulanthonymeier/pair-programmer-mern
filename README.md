@@ -347,13 +347,9 @@ We started the Trello board the last day of term 3 before the Christmas break, a
 
 Development Testing Video of user login and signup
 
-<video width="320" height="240" controls>
-  <source src="/docs/user-testing-local-env.mp4" type="video/mp4">
-</video>
+[Download video here:](https://github.com/paulanthonymeier/pair-programmer-mern/blob/main/docs/user-testing-local-env.mp4)
 
 Production Testing Video of user login and signup
 
-<video width="320" height="240" controls>
-  <source src="/docs/user-testing-production-env.mp4" type="video/mp4">
-</video>
+[Download video here:](https://github.com/paulanthonymeier/pair-programmer-mern/blob/main/docs/user-testing-production-env.mp4)
 
