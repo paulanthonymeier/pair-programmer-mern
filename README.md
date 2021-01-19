@@ -347,9 +347,9 @@ We started the Trello board the last day of term 3 before the Christmas break, a
 
 Development Testing Video of user login and signup
 
-[Download video here:](https://github.com/paulanthonymeier/pair-programmer-mern/blob/main/docs/user-testing-local-env.mp4)
+[Download video here](https://github.com/paulanthonymeier/pair-programmer-mern/blob/main/docs/user-testing-local-env.mp4)
 
 Production Testing Video of user login and signup
 
-[Download video here:](https://github.com/paulanthonymeier/pair-programmer-mern/blob/main/docs/user-testing-production-env.mp4)
+[Download video here](https://github.com/paulanthonymeier/pair-programmer-mern/blob/main/docs/user-testing-production-env.mp4)
 
