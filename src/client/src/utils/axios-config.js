@@ -1,8 +1,8 @@
 import axios from 'axios'
 
 const request = axios.create({
-  baseURL: process.env.REACT_APP_BACKEND_URL || 'https://localhost:4444',
-  // baseURL: process.env.REACT_APP_BACKEND_URL,
+  // baseURL: process.env.REACT_APP_BACKEND_URL || 'https://localhost:3001',
+  baseURL: process.env.REACT_APP_BACKEND_URL,
   withCredentials: true
 })
 
