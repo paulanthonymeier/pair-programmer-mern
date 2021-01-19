@@ -1,8 +1,10 @@
-export const getDashboard = async (req, res) => {
+const UserModel = require("../models/user");
+const passport = require('passport');
 
-    try {
-       res.status(200).json();
-    } catch (error) {
-       res.status(404).json({ message: error.message });
-    }
+export const getDashboard = async (req, res) => {
+   try {
+      res.status(200).json();
+   } catch (error) {
+      res.status(404).json({ message: error.message });
+   }
 }

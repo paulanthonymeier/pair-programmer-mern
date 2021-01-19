@@ -44,7 +44,6 @@ const AuthState = props => {
       })
   } catch (err) {
     console.log(err.response)
-    // console.log('Error:', err);
     dispatch({
         type: AUTH_ERROR
       })
@@ -60,7 +59,7 @@ const AuthState = props => {
     }
 
     try {
-      const res = await request.post('/register', formData, config);
+      const res = await request.post('/api/users/register', formData, config);
 
       dispatch({
         type: REGISTER_SUCCESS,
@@ -89,7 +88,7 @@ const AuthState = props => {
     }
 
     try {
-      await request.post('/login', formData, config);
+      await request.post('/api/users/login', formData, config);
 
       dispatch({
         type: LOGIN_SUCCESS,
@@ -110,7 +109,7 @@ const AuthState = props => {
   // Logout user 
   const logout = async() => {
     // have to hit the backend logout route;
-    await request.get('/logout')
+    await request.get('/api/users/logout')
 
     dispatch({
       type: LOGOUT
