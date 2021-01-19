@@ -59,6 +59,7 @@ const AuthState = props => {
     }
 
     try {
+      console.log(formData);
       const res = await request.post('/api/users/register', formData, config);
 
       dispatch({
