@@ -314,3 +314,27 @@ Participants/Students will receive a notification when certain key actions are e
 ![Pair Programmer | Trello Board](docs/trello-05.png "Pair Programmer | Trello Board")
 
 ![Pair Programmer | Trello Board](docs/trello-06.png "Pair Programmer | Trello Board")
+
+### Part B Trello Board and Task Delegation Summary
+
+![Pair Programmer | Trello Board](docs/trello1.png "Pair Programmer | Trello Board")
+
+![Pair Programmer | Trello Board](docs/trello2.png "Pair Programmer | Trello Board")
+
+![Pair Programmer | Trello Board](docs/trello3.png "Pair Programmer | Trello Board")
+
+![Pair Programmer | Trello Board](docs/trello4.png "Pair Programmer | Trello Board")
+
+![Pair Programmer | Trello Board](docs/trello5.png "Pair Programmer | Trello Board")
+
+![Pair Programmer | Trello Board](docs/trello6.png "Pair Programmer | Trello Board")
+
+We decided early on to work on Part B of the assignment - both front and back-end - together, as we both have similar strengths and weaknesses in coding. We both prefer and are more familiar with React and front-end development, and are both similarly less confident with express and mognodb, so we decided not to deligate one person coding the front, and the other the back. We thought, in doing it this way, that by the end of the assignment, we would both have a better grasp of node, express and mongodb, and how a fullstack application is structured and works.
+
+We planned our Trello board similar to the Part A of the assignment, where each ticket in each card has a difficulty/importance level, and a category labelling what it is (testing, server, routing, models, react etc). This way, we were able to see what parts of the assignment we completed and what parts were left, each with a difficulty level that showed what we should complete first, and what category of the app we were working on.
+
+We worked on both the front and back-end together as the assignment went on, if we had a few bugs to fix or needed to change some code, as we originally planned to, although, at the beginning, Matt, who is somewhat more familiar with express, worked more on the backend at the start of coding - connecting the routes, connecting to mongodb etc - where Paul worked on pretty much all the front end code that related to styling, structure and flow.
+
+Ultimately I think we planned our assignment pretty well, though due to personal reasons, life or work, we weren't able to complete the project as we envisioned it in Part A. Our MVP changed along the way, so we had to update the Trello to meet our new goals, which helped us build a somewhat complete poject.
+
+We started the Trello board the last day of term 3 before the Christmas break, as we realised we had to reconsider our Minimium Viable Product for the assignment, as at our current skill level, time frame and 3 week break, we didn't think we could create the app with all the features we listed in Part A.
