@@ -14,6 +14,10 @@ Documentation for Coder Academy Term 3 MERN Project
 [Matthew Kelam](https://github.com/maaronkel/pair-programmer-mern/) | [Paul Meier](https://github.com/paulanthonymeier/pair-programmer-mern/)
 
 
+### Deployed Site
+[pair-programmer-mern-app-front.herokuapp.com](https://pair-programmer-mern-app-front.herokuapp.com/) 
+
+
 ## Purpose
 
 Pair Programmer is a virtual online environment that helps facilitate the random selection of participants into workspaces of pairs and groups, providing participants and project contributors with brainstorming utilities to assist in the generation, conceptualization and development of ideas.
@@ -315,7 +319,7 @@ Participants/Students will receive a notification when certain key actions are e
 
 ![Pair Programmer | Trello Board](docs/trello-06.png "Pair Programmer | Trello Board")
 
-### Part B Trello Board and Task Delegation Summary
+### Part B - Trello Board and Task Delegation Summary
 
 ![Pair Programmer | Trello Board](docs/trello1.png "Pair Programmer | Trello Board")
 
@@ -338,3 +342,18 @@ We worked on both the front and back-end together as the assignment went on, if 
 Ultimately I think we planned our assignment pretty well, though due to personal reasons, life or work, we weren't able to complete the project as we envisioned it in Part A. Our MVP changed along the way, so we had to update the Trello to meet our new goals, which helped us build a somewhat complete poject.
 
 We started the Trello board the last day of term 3 before the Christmas break, as we realised we had to reconsider our Minimium Viable Product for the assignment, as at our current skill level, time frame and 3 week break, we didn't think we could create the app with all the features we listed in Part A.
+
+### Part B - User Testing (Video)
+
+Development Testing Video of user login and signup
+
+<video width="320" height="240" controls>
+  <source src="/docs/user-testing-local-env.mp4" type="video/mp4">
+</video>
+
+Production Testing Video of user login and signup
+
+<video width="320" height="240" controls>
+  <source src="/docs/user-testing-production-env.mp4" type="video/mp4">
+</video>
+
